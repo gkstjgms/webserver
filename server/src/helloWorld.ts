@@ -1,3 +1,3 @@
-export const func = (msg: string) => {
+export const log = (msg: string) => {
     console.log(msg);
 };

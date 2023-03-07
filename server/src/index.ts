@@ -1,3 +1,10 @@
-import { func } from "./helloWorld";
+const express = require("express");
+const app = express();
 
-func("I'm sending a message!");
+import { log } from "./helloWorld";
+
+const port = 3000;
+
+app.listen(port, () => {
+    log(`>>> App is listening on port ${port}!`);
+});
