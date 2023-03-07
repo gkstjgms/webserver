@@ -1,2 +1,3 @@
-let message: string = "Hello world";
-console.log(message);
+import { func } from "./helloWorld";
+
+func("I'm sending a message!");
